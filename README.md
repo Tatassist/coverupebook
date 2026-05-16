@@ -16,12 +16,8 @@ Pricing is controlled in `index.html`:
 
 ```js
 window.TATASSIST_OFFER = {
-  launchSale: true,
   regularPrice: "$297",
-  launchPrice: "$197",
   totalValue: "$999",
   checkoutUrl: "https://tatassist.gumroad.com/l/fjaatt"
 };
 ```
-
-Set `launchSale` to `false` to show regular pricing.

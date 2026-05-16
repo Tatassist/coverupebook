@@ -241,6 +241,8 @@ h3 {
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 900;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
 }
 
@@ -363,6 +365,31 @@ h3 {
   transform: rotate(4deg);
 }
 
+.protected-preview {
+  filter: blur(1.15px) saturate(0.82) contrast(0.95);
+}
+
+.protected-preview-strong {
+  filter: blur(2px) saturate(0.78) contrast(0.9);
+}
+
+.asset-stack::after {
+  content: "Preview - full worksheets included inside";
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  border: 1px solid rgba(214, 173, 97, 0.36);
+  border-radius: var(--radius);
+  background: rgba(7, 7, 7, 0.82);
+  color: var(--gold-soft);
+  padding: 0.5rem 0.65rem;
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .product-mockup {
   position: absolute;
   inset: 52px 16px 58px;
@@ -452,6 +479,29 @@ section {
   padding: 64px 0;
 }
 
+.thesis {
+  background: #090909;
+}
+
+.thesis-box,
+.scenario-card {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, rgba(214, 173, 97, 0.1), transparent 46%),
+    rgba(255, 255, 255, 0.04);
+  padding: clamp(1.25rem, 6vw, 2.3rem);
+}
+
+.thesis-box h2 {
+  max-width: 940px;
+}
+
+.thesis-box p:last-child,
+.scenario-card p:last-child {
+  margin-bottom: 0;
+}
+
 .pain {
   background: #0c0c0c;
 }
@@ -472,6 +522,31 @@ section {
   padding: 0.9rem 1rem;
   color: #dfd7cc;
   font-weight: 700;
+}
+
+.prevents {
+  background: #0d0d0d;
+}
+
+.prevents-grid,
+.scenario-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.prevents-grid article {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 1.1rem;
+}
+
+.prevents-grid h3 {
+  color: var(--gold-soft);
+}
+
+.prevents-grid p {
+  margin-bottom: 0;
 }
 
 .section-copy p {
@@ -594,8 +669,10 @@ figcaption {
 }
 
 .offer-item.with-shot {
+  position: relative;
   display: grid;
   gap: 1rem;
+  overflow: hidden;
 }
 
 .offer-item img {
@@ -606,6 +683,46 @@ figcaption {
   background: #f7f1e8;
   object-fit: cover;
   object-position: top;
+}
+
+.protected-card img {
+  filter: blur(1.2px) saturate(0.78) contrast(0.96);
+}
+
+.protected-card-strong img {
+  filter: blur(2px) saturate(0.72) contrast(0.9);
+}
+
+.protected-card::before {
+  content: "Preview - full worksheet included inside";
+  position: absolute;
+  left: 1.75rem;
+  top: 1.75rem;
+  z-index: 2;
+  max-width: calc(100% - 3.5rem);
+  border: 1px solid rgba(214, 173, 97, 0.36);
+  border-radius: var(--radius);
+  background: rgba(7, 7, 7, 0.82);
+  color: var(--gold-soft);
+  padding: 0.42rem 0.55rem;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.protected-card::after {
+  content: "";
+  position: absolute;
+  left: 1.15rem;
+  right: 1.15rem;
+  top: 1.15rem;
+  height: min(42vw, 210px);
+  z-index: 1;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(7, 7, 7, 0.54));
+  pointer-events: none;
 }
 
 .before-after {
@@ -850,7 +967,7 @@ details p {
   }
 
   .hero {
-    padding: 70px 0 64px;
+    padding: 58px 0 60px;
   }
 
   .hero-grid {
@@ -864,7 +981,8 @@ details p {
 
   .split,
   .checkout-grid,
-  .roi-box {
+  .roi-box,
+  .scenario-grid {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
     align-items: center;
   }
@@ -878,7 +996,8 @@ details p {
   }
 
   .equation-grid,
-  .workflow-steps {
+  .workflow-steps,
+  .prevents-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
@@ -896,6 +1015,20 @@ details p {
     aspect-ratio: auto;
   }
 
+  .protected-card::before {
+    left: 1.65rem;
+    top: 1.65rem;
+    max-width: 150px;
+  }
+
+  .protected-card::after {
+    left: 1.15rem;
+    right: auto;
+    top: 1.15rem;
+    width: 176px;
+    height: 218px;
+  }
+
   .value-card-wide {
     grid-column: span 3;
   }
@@ -907,7 +1040,7 @@ details p {
 
 @media (min-width: 1040px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4.6rem;
   }
 
   .hero-visual {
