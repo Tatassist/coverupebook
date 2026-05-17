@@ -427,6 +427,7 @@ h3 {
 .hero-template-card {
   display: grid;
   min-height: auto;
+  align-self: center;
   place-items: center;
   border: 0;
   background: transparent;
@@ -504,8 +505,9 @@ h3 {
 .hero-template-image {
   position: relative;
   z-index: 1;
-  width: min(100%, 450px);
-  max-height: min(72vh, 660px);
+  width: min(100%, 430px);
+  height: auto;
+  max-height: none;
   border: 1px solid rgba(251, 240, 217, 0.22);
   border-radius: 8px;
   object-fit: contain;
