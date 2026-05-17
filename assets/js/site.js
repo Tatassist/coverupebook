@@ -25,7 +25,7 @@
   });
 
   document.querySelectorAll("[data-checkout-price]").forEach((node) => {
-    node.innerHTML = `<span class="price-main">${activePrice}</span>`;
+    node.innerHTML = `<span class="price-note">You pay</span><span class="price-main">${activePrice}</span>`;
   });
 
   document.querySelectorAll("[data-checkout-headline]").forEach((node) => {
