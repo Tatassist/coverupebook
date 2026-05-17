@@ -425,21 +425,18 @@ h3 {
 }
 
 .hero-template-card {
-  min-height: 390px;
+  display: grid;
+  min-height: auto;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
 }
 
-.hero-logo {
-  position: absolute;
-  left: 50%;
-  top: 1.25rem;
-  z-index: 3;
-  width: min(58%, 265px);
-  height: auto;
-  border: 1px solid rgba(251, 240, 217, 0.24);
-  border-radius: 8px;
-  object-fit: cover;
-  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.58);
-  transform: translateX(-50%) rotate(-1.5deg);
+.hero-template-card::before,
+.hero-template-card::after {
+  display: none;
 }
 
 .hero-visual::before,
@@ -504,11 +501,15 @@ h3 {
   box-shadow: 0 0 18px rgba(201, 58, 37, 0.36);
 }
 
-.asset-stack {
+.hero-template-image {
   position: relative;
   z-index: 1;
-  min-height: 390px;
-  opacity: 0.9;
+  width: min(100%, 450px);
+  max-height: min(72vh, 660px);
+  border: 1px solid rgba(251, 240, 217, 0.22);
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.6);
 }
 
 .bundle-art-section {
@@ -553,31 +554,31 @@ h3 {
   border-radius: 6px;
   background: #f7f1e8;
   box-shadow: 0 26px 46px rgba(0, 0, 0, 0.45);
-  object-fit: cover;
+  aspect-ratio: 816 / 1056;
+  height: auto;
+  object-fit: contain;
   object-position: top;
 }
 
 .asset-main {
-  right: 1rem;
-  top: 1.25rem;
-  width: min(68%, 300px);
-  height: 82%;
+  right: 2%;
+  top: 12%;
+  width: 66%;
 }
 
 .asset-float {
-  width: min(41%, 180px);
-  height: 42%;
+  width: 38%;
 }
 
 .asset-one {
-  left: 1rem;
-  bottom: 1.15rem;
+  left: 2%;
+  bottom: 4%;
   transform: rotate(-4deg);
 }
 
 .asset-two {
-  left: 4.1rem;
-  top: 2.45rem;
+  left: 12%;
+  top: 22%;
   transform: rotate(4deg);
 }
 
@@ -587,23 +588,6 @@ h3 {
 
 .protected-preview-strong {
   filter: blur(2px) saturate(0.78) contrast(0.9);
-}
-
-.asset-stack::after {
-  content: "Preview - full worksheets included inside";
-  position: absolute;
-  left: 1rem;
-  bottom: 1rem;
-  z-index: 2;
-  border: 1px solid rgba(46, 159, 189, 0.42);
-  border-radius: var(--radius);
-  background: rgba(7, 7, 7, 0.82);
-  color: var(--gold-soft);
-  padding: 0.5rem 0.65rem;
-  font-size: 0.66rem;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .product-mockup {
@@ -1370,31 +1354,6 @@ details p {
 
   .hero-visual {
     min-height: 520px;
-  }
-
-  .asset-stack {
-    min-height: 520px;
-  }
-
-  .asset-main {
-    right: 1.7rem;
-    top: 1.8rem;
-    width: min(68%, 350px);
-  }
-
-  .hero-logo {
-    top: 1.8rem;
-    width: min(58%, 310px);
-  }
-
-  .asset-one {
-    left: 1.8rem;
-    bottom: 1.9rem;
-  }
-
-  .asset-two {
-    left: 5.2rem;
-    top: 3.2rem;
   }
 
   .product-mockup {
