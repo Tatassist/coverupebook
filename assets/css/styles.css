@@ -424,22 +424,22 @@ h3 {
   overflow: hidden;
 }
 
-.hero-art-card {
-  display: grid;
-  min-height: auto;
-  place-items: center;
-  padding: clamp(0.75rem, 2vw, 1.1rem);
+.hero-template-card {
+  min-height: 390px;
 }
 
-.hero-art {
-  position: relative;
-  z-index: 1;
-  width: min(100%, 470px);
-  max-height: min(68vh, 650px);
+.hero-logo {
+  position: absolute;
+  left: 50%;
+  top: 1.25rem;
+  z-index: 3;
+  width: min(58%, 265px);
+  height: auto;
   border: 1px solid rgba(251, 240, 217, 0.24);
   border-radius: 8px;
-  object-fit: contain;
-  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.62);
+  object-fit: cover;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.58);
+  transform: translateX(-50%) rotate(-1.5deg);
 }
 
 .hero-visual::before,
@@ -508,6 +508,7 @@ h3 {
   position: relative;
   z-index: 1;
   min-height: 390px;
+  opacity: 0.9;
 }
 
 .bundle-art-section {
@@ -1379,6 +1380,11 @@ details p {
     right: 1.7rem;
     top: 1.8rem;
     width: min(68%, 350px);
+  }
+
+  .hero-logo {
+    top: 1.8rem;
+    width: min(58%, 310px);
   }
 
   .asset-one {
