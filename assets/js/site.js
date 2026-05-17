@@ -3,10 +3,12 @@
     regularPrice: "$297",
     totalValue: "$999",
     checkoutUrl: "#checkout",
+    launchEndsAt: null,
     ...window.TATASSIST_OFFER
   };
 
   const activePrice = offer.regularPrice;
+  const launchEndsAt = offer.launchEndsAt ? new Date(offer.launchEndsAt).getTime() : null;
 
   document.querySelectorAll("[href='#checkout']").forEach((link) => {
     link.setAttribute("href", offer.checkoutUrl);
@@ -48,4 +50,36 @@
     node.dataset.offerPrice = activePrice;
     node.dataset.product = "complete-cover-up-toolkit";
   });
+
+  const pad = (value) => String(value).padStart(2, "0");
+
+  const renderCountdown = () => {
+    if (!launchEndsAt || Number.isNaN(launchEndsAt)) return;
+
+    const remaining = Math.max(0, launchEndsAt - Date.now());
+    const totalSeconds = Math.floor(remaining / 1000);
+    const days = Math.floor(totalSeconds / 86400);
+    const hours = Math.floor((totalSeconds % 86400) / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    document.querySelectorAll("[data-countdown-days]").forEach((node) => {
+      node.textContent = pad(days);
+    });
+    document.querySelectorAll("[data-countdown-hours]").forEach((node) => {
+      node.textContent = pad(hours);
+    });
+    document.querySelectorAll("[data-countdown-minutes]").forEach((node) => {
+      node.textContent = pad(minutes);
+    });
+    document.querySelectorAll("[data-countdown-seconds]").forEach((node) => {
+      node.textContent = pad(seconds);
+    });
+    document.querySelectorAll("[data-countdown-compact]").forEach((node) => {
+      node.textContent = remaining > 0 ? `${days}d ${pad(hours)}h ${pad(minutes)}m` : "Ending now";
+    });
+  };
+
+  renderCountdown();
+  setInterval(renderCountdown, 1000);
 })();
