@@ -693,7 +693,7 @@ section {
 
 .creator-evidence-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: clamp(1.4rem, 4vw, 3rem);
   align-items: start;
 }
 
@@ -701,14 +701,20 @@ section {
   max-width: 640px;
 }
 
+.creator-evidence h2 {
+  max-width: 720px;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.02;
+}
+
 .creator-evidence-copy {
   display: grid;
-  gap: 1.15rem;
+  gap: 1.25rem;
   align-items: start;
 }
 
 .creator-image-card {
-  width: min(100%, 320px);
+  width: min(100%, 340px);
   margin: 0 auto;
   border: 1px solid rgba(251, 240, 217, 0.18);
   border-radius: var(--radius);
@@ -722,9 +728,8 @@ section {
 .creator-image-card img {
   width: 100%;
   height: auto;
-  max-height: 420px;
   border-radius: 6px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .evidence-panel {
@@ -1382,17 +1387,12 @@ details p {
   }
 
   .creator-evidence-grid {
-    grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
-    align-items: center;
-  }
-
-  .creator-evidence-copy {
-    grid-template-columns: minmax(0, 1fr) 230px;
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.42fr);
+    align-items: start;
   }
 
   .creator-image-card {
-    width: 230px;
+    width: min(100%, 320px);
     justify-self: end;
   }
 
@@ -1460,11 +1460,7 @@ details p {
     inset: 72px 46px 76px;
   }
 
-  .creator-evidence-copy {
-    grid-template-columns: minmax(0, 1fr) 270px;
-  }
-
   .creator-image-card {
-    width: 270px;
+    width: 340px;
   }
 }
