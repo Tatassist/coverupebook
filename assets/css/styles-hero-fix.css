@@ -741,27 +741,6 @@ section {
   color: var(--text);
 }
 
-.evidence-future {
-  border-top: 1px solid var(--line);
-  padding-top: 1rem;
-}
-
-.proof-slot-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
-}
-
-.proof-slot-grid span {
-  border: 1px dashed rgba(251, 240, 217, 0.25);
-  border-radius: 6px;
-  background: rgba(0, 0, 0, 0.22);
-  padding: 0.7rem 0.8rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-  font-weight: 800;
-}
-
 .scenario-card {
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
@@ -1309,9 +1288,6 @@ details p {
     padding-inline: 0.3rem;
   }
 
-  .proof-slot-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (min-width: 520px) {

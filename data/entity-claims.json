@@ -110,9 +110,22 @@
       "claimType": "creator_experience",
       "statement": "Linda G has owned Black Diamond Custom Tattoos in Las Vegas, Nevada since 2017.",
       "visibleOnPage": true,
+      "evidencePath": "/index.html#linda-trust",
+      "evidenceSelector": "#linda-trust",
+      "confidence": "page_claim",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "black-diamond-top-three-north-las-vegas",
+      "entityId": "https://coverupebook.vercel.app/#linda-g",
+      "entityName": "Black Diamond Custom Tattoos",
+      "claimType": "third_party_shop_authority",
+      "statement": "Black Diamond Custom Tattoos is listed among ThreeBestRated's 2026 expert-recommended Top 3 tattoo shops in North Las Vegas.",
+      "visibleOnPage": true,
       "evidencePath": "/index.html#creator-evidence",
       "evidenceSelector": "#creator-evidence",
-      "confidence": "page_claim",
+      "evidenceUrl": "https://threebestrated.com/tattoo-shops-in-north-las-vegas-nv",
+      "confidence": "third_party_source",
       "lastVerified": "2026-05-18"
     },
     {
@@ -128,38 +141,14 @@
       "lastVerified": "2026-05-18"
     },
     {
-      "claimId": "refund-policy",
-      "entityId": "https://coverupebook.vercel.app/#offer",
-      "entityName": "Complete Cover-Up Toolkit offer",
-      "claimType": "refund_policy",
-      "statement": "Because the Complete Cover-Up Toolkit is a downloadable knowledge product with instant access, all sales are final.",
-      "visibleOnPage": true,
-      "evidencePath": "/index.html#faq",
-      "evidenceSelector": "#faq",
-      "confidence": "high",
-      "lastVerified": "2026-05-18"
-    },
-    {
       "claimId": "creator-evidence-section",
       "entityId": "https://coverupebook.vercel.app/#creator-evidence",
       "entityName": "Creator and evidence section",
       "claimType": "evidence_governance",
-      "statement": "The landing page exposes current page-backed authority claims and separates future proof slots from existing evidence.",
+      "statement": "The landing page exposes current page-backed and third-party-supported authority claims without publishing launch-only reviews or ratings.",
       "visibleOnPage": true,
       "evidencePath": "/index.html#creator-evidence",
       "evidenceSelector": "#creator-evidence",
-      "confidence": "high",
-      "lastVerified": "2026-05-18"
-    },
-    {
-      "claimId": "future-proof-slots",
-      "entityId": "https://coverupebook.vercel.app/#creator-evidence",
-      "entityName": "Future proof slots",
-      "claimType": "evidence_governance",
-      "statement": "The page identifies portfolio link, shop profile, artist testimonials, case studies, media or podcast mentions, and documented buyer outcomes as future proof slots to add after launch.",
-      "visibleOnPage": true,
-      "evidencePath": "/index.html#creator-evidence",
-      "evidenceSelector": ".proof-slot-grid",
       "confidence": "high",
       "lastVerified": "2026-05-18"
     }

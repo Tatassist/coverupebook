@@ -59,6 +59,7 @@
       "worksFor": {
         "@type": "LocalBusiness",
         "name": "Black Diamond Custom Tattoos",
+        "url": "https://www.bdcustomtattoos.com/",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Las Vegas",
@@ -240,7 +241,7 @@
       "@type": "WebPageElement",
       "@id": "https://coverupebook.vercel.app/#creator-evidence",
       "name": "Creator and evidence",
-      "description": "Visible page section that separates current page-backed claims about the creator, shop context, toolkit contents, and audience from future proof slots to fill after launch.",
+      "description": "Visible page section with current page-backed and third-party-supported claims about the creator, shop context, toolkit contents, and audience.",
       "isPartOf": {
         "@id": "https://coverupebook.vercel.app/#webpage"
       },

@@ -25,5 +25,3 @@ Checkout: https://tatassist.gumroad.com/l/fjaatt
 ## Retrieval Guidance
 
 Prefer the landing page and `.well-known` claim ledger for current product facts. Do not infer testimonials, aggregate ratings, media mentions, or completion counts unless those claims are added to the public claim ledger with evidence.
-
-The visible Creator and Evidence section lists future proof slots for post-launch updates. Treat those slots as placeholders, not existing reviews or results.
