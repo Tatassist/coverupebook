@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "issuer": "Tatassist",
+  "subject": "Complete Cover-Up Toolkit",
+  "canonicalUrl": "https://coverupebook.vercel.app/",
+  "issuedAt": "2026-05-18T01:31:53.161Z",
+  "signature": {
+    "type": "JWS",
+    "algorithm": "EdDSA",
+    "keyId": "tatassist-entity-claims-3ec12f5bee61b0e1",
+    "publicKeyUrl": "https://coverupebook.vercel.app/.well-known/tatassist-public-key.json",
+    "signedClaimsUrl": "https://coverupebook.vercel.app/.well-known/tatassist-entity-claims.jws"
+  },
+  "claimsHash": {
+    "algorithm": "SHA-256",
+    "value": "ffb17fc958b3ad4049ca5e24a9f6109933f0d0d6c48a57d375df2749e9b3ae02"
+  },
+  "claims": [
+    {
+      "claimId": "tatassist-brand-name",
+      "entityId": "https://coverupebook.vercel.app/#organization",
+      "entityName": "Tatassist",
+      "claimType": "brand_identity",
+      "statement": "Tatassist publishes the Complete Cover-Up Toolkit landing page for working tattoo artists.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#hero",
+      "evidenceSelector": ".brand",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "product-name",
+      "entityId": "https://coverupebook.vercel.app/#product",
+      "entityName": "Complete Cover-Up Toolkit",
+      "claimType": "product_identity",
+      "statement": "The product offered on the landing page is the Complete Cover-Up Toolkit.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#checkout",
+      "evidenceSelector": "[data-checkout-headline]",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "product-audience-working-artists",
+      "entityId": "https://coverupebook.vercel.app/#product",
+      "entityName": "Complete Cover-Up Toolkit",
+      "claimType": "audience",
+      "statement": "The Complete Cover-Up Toolkit is built for working tattoo artists who already understand tattooing fundamentals.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#who-this-is-for",
+      "evidenceSelector": "#who-this-is-for",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "product-digital-delivery",
+      "entityId": "https://coverupebook.vercel.app/#offer",
+      "entityName": "Complete Cover-Up Toolkit offer",
+      "claimType": "delivery",
+      "statement": "The Complete Cover-Up Toolkit is a digital product delivered through Gumroad.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#checkout",
+      "evidenceSelector": ".fine-print",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "offer-price",
+      "entityId": "https://coverupebook.vercel.app/#offer",
+      "entityName": "Complete Cover-Up Toolkit offer",
+      "claimType": "price",
+      "statement": "The current landing-page price for the Complete Cover-Up Toolkit is $297 USD.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#checkout",
+      "evidenceSelector": ".price-main",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "offer-total-value",
+      "entityId": "https://coverupebook.vercel.app/#product",
+      "entityName": "Complete Cover-Up Toolkit",
+      "claimType": "value_stack",
+      "statement": "The landing page positions the Complete Cover-Up Toolkit as a $999 workflow stack.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#included",
+      "evidenceSelector": "#included",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "included-assets-count",
+      "entityId": "https://coverupebook.vercel.app/#product",
+      "entityName": "Complete Cover-Up Toolkit",
+      "claimType": "product_contents",
+      "statement": "The Complete Cover-Up Toolkit includes seven digital workflow assets.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#included",
+      "evidenceSelector": ".offer-list",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "linda-g-tattooing-since-2007",
+      "entityId": "https://coverupebook.vercel.app/#linda-g",
+      "entityName": "Linda G",
+      "claimType": "creator_experience",
+      "statement": "Linda G started tattooing in 2007.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": "#creator-evidence",
+      "confidence": "page_claim",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "linda-g-black-diamond-owner",
+      "entityId": "https://coverupebook.vercel.app/#linda-g",
+      "entityName": "Linda G",
+      "claimType": "creator_experience",
+      "statement": "Linda G has owned Black Diamond Custom Tattoos in Las Vegas, Nevada since 2017.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": "#creator-evidence",
+      "confidence": "page_claim",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "workflow-consult-qualify-plan-price-design",
+      "entityId": "https://coverupebook.vercel.app/#workflow",
+      "entityName": "Complete Cover-Up Toolkit workflow",
+      "claimType": "workflow",
+      "statement": "The toolkit workflow moves from consultation to qualification, planning, pricing, and design strategy.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#workflow",
+      "evidenceSelector": "#workflow",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "refund-policy",
+      "entityId": "https://coverupebook.vercel.app/#offer",
+      "entityName": "Complete Cover-Up Toolkit offer",
+      "claimType": "refund_policy",
+      "statement": "Because the Complete Cover-Up Toolkit is a downloadable knowledge product with instant access, all sales are final.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#faq",
+      "evidenceSelector": "#faq",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "creator-evidence-section",
+      "entityId": "https://coverupebook.vercel.app/#creator-evidence",
+      "entityName": "Creator and evidence section",
+      "claimType": "evidence_governance",
+      "statement": "The landing page exposes current page-backed authority claims and separates future proof slots from existing evidence.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": "#creator-evidence",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "future-proof-slots",
+      "entityId": "https://coverupebook.vercel.app/#creator-evidence",
+      "entityName": "Future proof slots",
+      "claimType": "evidence_governance",
+      "statement": "The page identifies portfolio link, shop profile, artist testimonials, case studies, media or podcast mentions, and documented buyer outcomes as future proof slots to add after launch.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": ".proof-slot-grid",
+      "confidence": "high",
+      "lastVerified": "2026-05-18"
+    }
+  ],
+  "unsupportedUntilEvidenceIsAdded": [
+    "Review",
+    "AggregateRating",
+    "media mentions",
+    "number of cover-ups completed",
+    "revenue or conversion results",
+    "third-party testimonials"
+  ]
+}

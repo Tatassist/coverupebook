@@ -685,6 +685,83 @@ section {
   background: #090909;
 }
 
+.creator-evidence {
+  background:
+    linear-gradient(135deg, rgba(47, 159, 192, 0.1), transparent 35%),
+    linear-gradient(180deg, #0b0d0d, #070707);
+}
+
+.creator-evidence-grid {
+  display: grid;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.creator-evidence-copy p {
+  max-width: 640px;
+}
+
+.evidence-panel {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, rgba(93, 121, 91, 0.13), transparent 48%),
+    rgba(255, 255, 255, 0.045);
+  padding: clamp(1.15rem, 4vw, 1.8rem);
+  box-shadow: var(--shadow);
+}
+
+.evidence-kicker {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--gold-soft);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.evidence-current ul {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.evidence-current li {
+  border-left: 3px solid var(--gold);
+  padding-left: 0.8rem;
+  color: var(--muted);
+}
+
+.evidence-current strong {
+  color: var(--text);
+}
+
+.evidence-future {
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.proof-slot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.proof-slot-grid span {
+  border: 1px dashed rgba(251, 240, 217, 0.25);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.22);
+  padding: 0.7rem 0.8rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .scenario-card {
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
@@ -1231,6 +1308,10 @@ details p {
   .countdown span {
     padding-inline: 0.3rem;
   }
+
+  .proof-slot-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 520px) {
@@ -1293,6 +1374,7 @@ details p {
   .roi-box,
   .scenario-grid,
   .linda-grid,
+  .creator-evidence-grid,
   .bundle-art-grid {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
     align-items: center;

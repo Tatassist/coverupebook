@@ -1,0 +1,312 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://coverupebook.vercel.app/#website",
+      "url": "https://coverupebook.vercel.app/",
+      "name": "Tatassist",
+      "publisher": {
+        "@id": "https://coverupebook.vercel.app/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coverupebook.vercel.app/#webpage",
+      "url": "https://coverupebook.vercel.app/",
+      "name": "Complete Cover-Up Toolkit | Tatassist",
+      "description": "Linda G's $999 digital cover-up workflow toolkit for working tattoo artists. Get the strategy eBook plus studio systems for consultations, qualification, pricing, client planning, laser decisions, and design strategy.",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coverupebook.vercel.app/#primary-image"
+      },
+      "mainEntity": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "breadcrumb": {
+        "@id": "https://coverupebook.vercel.app/#breadcrumbs"
+      },
+      "hasPart": [
+        {
+          "@id": "https://coverupebook.vercel.app/#creator-evidence"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coverupebook.vercel.app/#organization",
+      "name": "Tatassist",
+      "url": "https://coverupebook.vercel.app/",
+      "logo": {
+        "@id": "https://coverupebook.vercel.app/#logo"
+      },
+      "sameAs": [
+        "https://tatassist.gumroad.com/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coverupebook.vercel.app/#linda-g",
+      "name": "Linda G",
+      "jobTitle": "Tattoo artist and creator of the Complete Cover-Up Toolkit",
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "name": "Black Diamond Custom Tattoos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Las Vegas",
+          "addressRegion": "NV",
+          "addressCountry": "US"
+        }
+      },
+      "knowsAbout": [
+        "tattoo cover-ups",
+        "cover-up consultations",
+        "tattoo project planning",
+        "laser-first cover-up decisions",
+        "premium tattoo pricing"
+      ],
+      "makesOffer": {
+        "@id": "https://coverupebook.vercel.app/#offer"
+      },
+      "subjectOf": {
+        "@id": "https://coverupebook.vercel.app/#creator-evidence"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coverupebook.vercel.app/#logo",
+      "url": "https://coverupebook.vercel.app/assets/img/brand/tatassist-logo.jpeg",
+      "contentUrl": "https://coverupebook.vercel.app/assets/img/brand/tatassist-logo.jpeg",
+      "caption": "Tatassist logo"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coverupebook.vercel.app/#primary-image",
+      "url": "https://coverupebook.vercel.app/assets/img/brand/hero-template-preview.jpeg",
+      "contentUrl": "https://coverupebook.vercel.app/assets/img/brand/hero-template-preview.jpeg",
+      "caption": "Tatassist Complete Cover-Up Toolkit preview"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://coverupebook.vercel.app/#product",
+      "name": "Complete Cover-Up Toolkit",
+      "brand": {
+        "@id": "https://coverupebook.vercel.app/#organization"
+      },
+      "description": "A digital cover-up workflow toolkit for working tattoo artists, including education, consultation, qualification, client planning, pricing, laser decisions, and design strategy.",
+      "image": [
+        "https://coverupebook.vercel.app/assets/img/brand/hero-template-preview.jpeg",
+        "https://coverupebook.vercel.app/assets/img/brand/coverup-toolkit-art.jpg"
+      ],
+      "category": "Digital product",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Working tattoo artists"
+      },
+      "creator": {
+        "@id": "https://coverupebook.vercel.app/#linda-g"
+      },
+      "offers": {
+        "@id": "https://coverupebook.vercel.app/#offer"
+      },
+      "isRelatedTo": [
+        {
+          "@id": "https://coverupebook.vercel.app/#strategy-ebook"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#consultation-system"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#qualification-decision-system"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#client-project-plan"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#pricing-booking-system"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#laser-recommendation-system"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#design-strategy-board"
+        }
+      ]
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://coverupebook.vercel.app/#offer",
+      "url": "https://tatassist.gumroad.com/l/fjaatt",
+      "price": "297.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@id": "https://coverupebook.vercel.app/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "businessFunction": "https://schema.org/Sell",
+      "eligibleRegion": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#strategy-ebook",
+      "name": "Complete Cover-Up Strategy eBook",
+      "learningResourceType": "eBook",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": [
+        "assessing old tattoos",
+        "planning cover-ups",
+        "laser decisions",
+        "premium cover-up pricing"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#consultation-system",
+      "name": "Cover-Up Consultation System",
+      "learningResourceType": "worksheet",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to run a structured cover-up consultation before drawing, quoting, or promising the project."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#qualification-decision-system",
+      "name": "Cover-Up Qualification Decision System",
+      "learningResourceType": "decision framework",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to decide whether a cover-up should proceed, change, require laser first, be referred out, or be declined."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#client-project-plan",
+      "name": "Client-Facing Cover-Up Project Plan",
+      "learningResourceType": "template",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to document recommendations, expectations, quote ranges, responsibilities, and next steps for a cover-up client."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#pricing-booking-system",
+      "name": "Premium Pricing and Booking System",
+      "learningResourceType": "worksheet",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to price cover-up work around planning labor, complexity, session load, risk, deposits, and scope changes."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#laser-recommendation-system",
+      "name": "Laser Recommendation System",
+      "learningResourceType": "decision framework",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to know when laser protects a cover-up outcome, when it is optional, and how to explain the delay."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://coverupebook.vercel.app/#design-strategy-board",
+      "name": "Cover-Up Design Strategy Board",
+      "learningResourceType": "planning board",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#product"
+      },
+      "teaches": "How to map old ink, problem zones, anchors, focal points, value strategy, texture, flow, and concept options before final rendering."
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://coverupebook.vercel.app/#creator-evidence",
+      "name": "Creator and evidence",
+      "description": "Visible page section that separates current page-backed claims about the creator, shop context, toolkit contents, and audience from future proof slots to fill after launch.",
+      "isPartOf": {
+        "@id": "https://coverupebook.vercel.app/#webpage"
+      },
+      "about": [
+        {
+          "@id": "https://coverupebook.vercel.app/#linda-g"
+        },
+        {
+          "@id": "https://coverupebook.vercel.app/#product"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://coverupebook.vercel.app/#workflow",
+      "name": "Complete cover-up workflow from inquiry to booking decision",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Consult",
+          "text": "Understand the client, old tattoo, skin, expectations, and real constraints."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Qualify",
+          "text": "Decide if the project should proceed, change, need laser, or stop."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Plan",
+          "text": "Turn the recommendation into a clear project plan the client can understand."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Price",
+          "text": "Quote around planning, complexity, session load, and risk."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Design",
+          "text": "Map coverage logic before burning hours on final art."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coverupebook.vercel.app/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Tatassist",
+          "item": "https://coverupebook.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Complete Cover-Up Toolkit",
+          "item": "https://coverupebook.vercel.app/#product"
+        }
+      ]
+    }
+  ]
+}

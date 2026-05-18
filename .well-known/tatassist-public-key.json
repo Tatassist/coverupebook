@@ -1,0 +1,8 @@
+{
+  "crv": "Ed25519",
+  "x": "iw4037uYet1Kq3xk3O4XmRGrazCOJ1NXvIx9KWvGL-Q",
+  "kty": "OKP",
+  "use": "sig",
+  "alg": "EdDSA",
+  "kid": "tatassist-entity-claims-3ec12f5bee61b0e1"
+}

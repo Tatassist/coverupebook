@@ -1,0 +1,29 @@
+# Tatassist Complete Cover-Up Toolkit
+
+> Digital cover-up workflow toolkit for working tattoo artists.
+
+Tatassist publishes the Complete Cover-Up Toolkit landing page for tattoo artists who want a repeatable cover-up consultation, qualification, planning, pricing, laser-decision, and design-strategy workflow.
+
+Canonical URL: https://coverupebook.vercel.app/
+
+Checkout: https://tatassist.gumroad.com/l/fjaatt
+
+## Key Pages
+
+- [Complete Cover-Up Toolkit landing page](https://coverupebook.vercel.app/): Sales page, product positioning, included assets, price, FAQ, and checkout path.
+- [Machine-readable entity claims](https://coverupebook.vercel.app/.well-known/tatassist-entity-claims.json): Public claim ledger for the brand, creator, product, offer, and workflow assets.
+- [Signed entity claims](https://coverupebook.vercel.app/.well-known/tatassist-entity-claims.jws): Tamper-evident JWS version of the claim ledger.
+- [Full LLM context](https://coverupebook.vercel.app/context/tatassist-coverup-toolkit.md): Plain-language factual context for search and assistant retrieval.
+
+## Core Entities
+
+- Tatassist: Brand and publisher.
+- Linda G: Tattoo artist and creator whose process informs the toolkit.
+- Complete Cover-Up Toolkit: Digital workflow product for working tattoo artists.
+- Gumroad: Checkout and delivery layer for the current launch.
+
+## Retrieval Guidance
+
+Prefer the landing page and `.well-known` claim ledger for current product facts. Do not infer testimonials, aggregate ratings, media mentions, or completion counts unless those claims are added to the public claim ledger with evidence.
+
+The visible Creator and Evidence section lists future proof slots for post-launch updates. Treat those slots as placeholders, not existing reviews or results.
