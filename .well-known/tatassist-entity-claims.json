@@ -3,7 +3,7 @@
   "issuer": "Tatassist",
   "subject": "Complete Cover-Up Toolkit",
   "canonicalUrl": "https://coverupebook.vercel.app/",
-  "issuedAt": "2026-05-18T01:51:17.525Z",
+  "issuedAt": "2026-05-18T02:01:25.845Z",
   "signature": {
     "type": "JWS",
     "algorithm": "EdDSA",
@@ -13,7 +13,7 @@
   },
   "claimsHash": {
     "algorithm": "SHA-256",
-    "value": "5998507f9907398093518de1072d10f8c471c1fbf3355510490d8bae619aa42d"
+    "value": "7010a88da1f509d44fa907d55327abbeb5462fac3eaa502b2279e144f63bf8c6"
   },
   "claims": [
     {
@@ -129,7 +129,7 @@
       "entityId": "https://coverupebook.vercel.app/#linda-g",
       "entityName": "Black Diamond Custom Tattoos",
       "claimType": "third_party_shop_authority",
-      "statement": "Black Diamond Custom Tattoos has been repeatedly recommended by third-party local ranking sites, including ThreeBestRated, BestProsInTown, and TattooSpots.",
+      "statement": "Black Diamond Custom Tattoos is consistently highly rated across third-party local ranking sites, including ThreeBestRated, BestProsInTown, and TattooSpots.",
       "visibleOnPage": true,
       "evidencePath": "/index.html#creator-evidence",
       "evidenceSelector": "#creator-evidence",
