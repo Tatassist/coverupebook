@@ -20,7 +20,7 @@ Entity ID: `https://coverupebook.vercel.app/#organization`
 
 Linda G is presented on the landing page as the creator of the process behind the toolkit. The page states that she started tattooing in 2007 and has owned Black Diamond Custom Tattoos in Las Vegas, Nevada since 2017.
 
-Black Diamond Custom Tattoos is listed by ThreeBestRated among its 2026 expert-recommended Top 3 tattoo shops in North Las Vegas.
+Black Diamond Custom Tattoos has been repeatedly recommended by third-party local ranking sites, including ThreeBestRated, BestProsInTown, and TattooSpots.
 
 Entity ID: `https://coverupebook.vercel.app/#linda-g`
 

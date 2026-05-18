@@ -116,15 +116,19 @@
       "lastVerified": "2026-05-18"
     },
     {
-      "claimId": "black-diamond-top-three-north-las-vegas",
+      "claimId": "black-diamond-third-party-recognition",
       "entityId": "https://coverupebook.vercel.app/#linda-g",
       "entityName": "Black Diamond Custom Tattoos",
       "claimType": "third_party_shop_authority",
-      "statement": "Black Diamond Custom Tattoos is listed among ThreeBestRated's 2026 expert-recommended Top 3 tattoo shops in North Las Vegas.",
+      "statement": "Black Diamond Custom Tattoos has been repeatedly recommended by third-party local ranking sites, including ThreeBestRated, BestProsInTown, and TattooSpots.",
       "visibleOnPage": true,
       "evidencePath": "/index.html#creator-evidence",
       "evidenceSelector": "#creator-evidence",
-      "evidenceUrl": "https://threebestrated.com/tattoo-shops-in-north-las-vegas-nv",
+      "evidenceUrls": [
+        "https://threebestrated.com/tattoo-shops-in-north-las-vegas-nv",
+        "https://www.bestprosintown.com/nv/north-las-vegas/tattoo/",
+        "https://tattoospots.com/best-tattoo-shops-in-north-las-vegas-nv/"
+      ],
       "confidence": "third_party_source",
       "lastVerified": "2026-05-18"
     },
