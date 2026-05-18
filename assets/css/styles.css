@@ -697,12 +697,19 @@ section {
   align-items: start;
 }
 
-.creator-evidence-copy p {
+.creator-evidence-text p {
   max-width: 640px;
 }
 
+.creator-evidence-copy {
+  display: grid;
+  gap: 1.15rem;
+  align-items: start;
+}
+
 .creator-image-card {
-  margin: 1.35rem 0 0;
+  width: min(100%, 320px);
+  margin: 0 auto;
   border: 1px solid rgba(251, 240, 217, 0.18);
   border-radius: var(--radius);
   background:
@@ -714,7 +721,8 @@ section {
 
 .creator-image-card img {
   width: 100%;
-  max-height: 640px;
+  height: auto;
+  max-height: 420px;
   border-radius: 6px;
   object-fit: contain;
 }
@@ -1368,10 +1376,24 @@ details p {
   .roi-box,
   .scenario-grid,
   .linda-grid,
-  .creator-evidence-grid,
   .bundle-art-grid {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
     align-items: center;
+  }
+
+  .creator-evidence-grid {
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+    align-items: center;
+  }
+
+  .creator-evidence-copy {
+    grid-template-columns: minmax(0, 1fr) 230px;
+    align-items: center;
+  }
+
+  .creator-image-card {
+    width: 230px;
+    justify-self: end;
   }
 
   section {
@@ -1436,5 +1458,13 @@ details p {
 
   .product-mockup {
     inset: 72px 46px 76px;
+  }
+
+  .creator-evidence-copy {
+    grid-template-columns: minmax(0, 1fr) 270px;
+  }
+
+  .creator-image-card {
+    width: 270px;
   }
 }
