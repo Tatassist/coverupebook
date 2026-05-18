@@ -3,7 +3,7 @@
   "issuer": "Tatassist",
   "subject": "Complete Cover-Up Toolkit",
   "canonicalUrl": "https://coverupebook.vercel.app/",
-  "issuedAt": "2026-05-18T02:01:25.845Z",
+  "issuedAt": "2026-05-18T02:06:13.898Z",
   "signature": {
     "type": "JWS",
     "algorithm": "EdDSA",
@@ -13,7 +13,7 @@
   },
   "claimsHash": {
     "algorithm": "SHA-256",
-    "value": "7010a88da1f509d44fa907d55327abbeb5462fac3eaa502b2279e144f63bf8c6"
+    "value": "5531b74f8f74317671320a82ce4f88261dc23025ea602d196e2896f6c4a03b3d"
   },
   "claims": [
     {
@@ -163,6 +163,19 @@
       "evidencePath": "/index.html#creator-evidence",
       "evidenceSelector": "#creator-evidence",
       "confidence": "high",
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "linda-branded-reputation-image",
+      "entityId": "https://coverupebook.vercel.app/#linda-5-star-artist-image",
+      "entityName": "Linda G branded reputation image",
+      "claimType": "brand_asset",
+      "statement": "The creator evidence section uses a branded Tatassist reputation graphic featuring Linda G.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": ".creator-image-card",
+      "evidenceAsset": "/assets/img/brand/linda-5-star-artist.jpg",
+      "confidence": "first_party_asset",
       "lastVerified": "2026-05-18"
     }
   ],

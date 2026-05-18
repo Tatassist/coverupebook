@@ -155,6 +155,19 @@
       "evidenceSelector": "#creator-evidence",
       "confidence": "high",
       "lastVerified": "2026-05-18"
+    },
+    {
+      "claimId": "linda-branded-reputation-image",
+      "entityId": "https://coverupebook.vercel.app/#linda-5-star-artist-image",
+      "entityName": "Linda G branded reputation image",
+      "claimType": "brand_asset",
+      "statement": "The creator evidence section uses a branded Tatassist reputation graphic featuring Linda G.",
+      "visibleOnPage": true,
+      "evidencePath": "/index.html#creator-evidence",
+      "evidenceSelector": ".creator-image-card",
+      "evidenceAsset": "/assets/img/brand/linda-5-star-artist.jpg",
+      "confidence": "first_party_asset",
+      "lastVerified": "2026-05-18"
     }
   ],
   "unsupportedUntilEvidenceIsAdded": [

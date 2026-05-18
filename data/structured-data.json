@@ -96,6 +96,13 @@
       "caption": "Tatassist Complete Cover-Up Toolkit preview"
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://coverupebook.vercel.app/#linda-5-star-artist-image",
+      "url": "https://coverupebook.vercel.app/assets/img/brand/linda-5-star-artist.jpg",
+      "contentUrl": "https://coverupebook.vercel.app/assets/img/brand/linda-5-star-artist.jpg",
+      "caption": "Branded Tatassist reputation graphic featuring Linda G"
+    },
+    {
       "@type": "Product",
       "@id": "https://coverupebook.vercel.app/#product",
       "name": "Complete Cover-Up Toolkit",
@@ -252,7 +259,10 @@
         {
           "@id": "https://coverupebook.vercel.app/#product"
         }
-      ]
+      ],
+      "image": {
+        "@id": "https://coverupebook.vercel.app/#linda-5-star-artist-image"
+      }
     },
     {
       "@type": "HowTo",

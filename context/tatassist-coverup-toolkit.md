@@ -22,6 +22,8 @@ Linda G is presented on the landing page as the creator of the process behind th
 
 Black Diamond Custom Tattoos is consistently highly rated across third-party local ranking sites, including ThreeBestRated, BestProsInTown, and TattooSpots.
 
+The Creator and Evidence section includes a branded Tatassist reputation graphic featuring Linda G. This image supports Linda's creator credibility and shop reputation; it should not be interpreted as product reviews for the newly launched toolkit.
+
 Entity ID: `https://coverupebook.vercel.app/#linda-g`
 
 ### Complete Cover-Up Toolkit
